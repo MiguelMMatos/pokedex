@@ -21,7 +21,7 @@ function Pokedex({
   const [search, setSearch] = useState("");
   const scrollRef = useRef(null);
 
-  function handleChange(e: any) {
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
     setSearch(e.target.value);
   }
 
