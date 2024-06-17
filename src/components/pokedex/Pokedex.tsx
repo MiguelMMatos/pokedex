@@ -1,6 +1,6 @@
 import Pokemon from "./pokemon/Pokemon";
 import "./pokedex.css";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { TPokemonDescription } from "../Models/pokemon";
 
 interface Props {
